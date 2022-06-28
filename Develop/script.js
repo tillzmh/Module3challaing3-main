@@ -35,4 +35,6 @@ function generatePassword(){
       characters+=special
     }
   }
+  var password= ""
+  var numberofcharacters= 0
 }
