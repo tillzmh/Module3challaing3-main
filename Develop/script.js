@@ -21,4 +21,18 @@ function generatePassword(){
   var numbers= "1234567890"
   var special= "!@#$^%&*"
   var characters= "" 
+  while(characters=== ""){
+    if(confirm("Include lowercase characters?")){
+      characters+=lowercase
+    }
+    if(confirm("Include uppercase characters?")){
+      characters+=uppercase
+    }
+    if(confirm("Include number?")){
+      characters+=numbers
+    }
+    if(confirm("Include special characters?")){
+      characters+=special
+    }
+  }
 }
