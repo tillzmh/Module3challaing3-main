@@ -41,9 +41,10 @@ function generatePassword(){
     numberofcharacters=Number(prompt("number of characters? Choose 8 to 128"))
   }
   for( let i=0; i<numberofcharacters; i++){
-    var index= Math.floor(Math.random()*characters.length)
-    password += characters[index]
+    var complete= Math.floor(Math.random()*characters.length)
+    password += characters[complete]
   }
   return password
 }
+
 
